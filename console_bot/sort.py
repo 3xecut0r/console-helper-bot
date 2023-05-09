@@ -5,7 +5,7 @@ import shutil
 import console_bot.ab_work as ab
 from console_bot.handlers import no_command, input_error, instruction
 
-SORT_INSTRUCTION = 'instruction for sorter.txt'
+SORT_INSTRUCTION = 'instruction_for_sorter.txt'
 
 extensions = {'Зображення': ['jpeg', 'png', 'jpg', 'svg'],
               "Відео": ['avi', 'mp4', 'mov', 'mkv'],

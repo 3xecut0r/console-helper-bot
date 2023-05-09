@@ -4,7 +4,7 @@ import console_bot.Notes as Notes
 import console_bot.sort as sort
 import abc
 
-MAIN_INSTRUCTION = 'instruction for menu.txt'
+MAIN_INSTRUCTION = 'instruction_for_menu.txt'
 
 
 class UserInterface(abc.ABC):

@@ -5,7 +5,7 @@ import os
 
 from console_bot.handlers import instruction
 
-NOTES_INSTRUCTION = 'instruction for notes.txt'
+NOTES_INSTRUCTION = 'instruction_for_notes.txt'
 
 
 class HashTags:

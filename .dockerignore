@@ -1,0 +1,6 @@
+LICENSE
+packages.drawio
+.gitignore
+classes.drawio
+console_bot.egg-info
+build

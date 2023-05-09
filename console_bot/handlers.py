@@ -2,7 +2,7 @@ import re
 
 from console_bot.classes import Phone, Name, Birthday, Record, AdressBook, Email, Address, Field
 
-AB_INSTRUCTION = 'instruction for Address Book.txt'
+AB_INSTRUCTION = 'instruction_for_AddressBook.txt'
 NAME_CLASSES = {
     'phone': Phone,
     'email': Email,
