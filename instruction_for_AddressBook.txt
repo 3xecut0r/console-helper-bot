@@ -12,7 +12,7 @@ Print name, phone: 'phone here', birthday: 'birthday', email: 'email', address: 
 
  For all contacts use command 'show all', for part - 'show part'
  If you want to know days before somebody birthday write command 'days to birth' and contact name
- 
+
 
 For saving - print "save"
 For help - print "help"
