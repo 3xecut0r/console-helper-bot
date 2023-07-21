@@ -6,6 +6,7 @@ import console_bot.ab_work as ab
 from console_bot.handlers import no_command, input_error, instruction
 
 SORT_INSTRUCTION = 'instruction_for_sorter.txt'
+description = "\n'sort C://path/to/your/folder' - sorting files in folder by their extension\n"
 
 extensions = {'Зображення': ['jpeg', 'png', 'jpg', 'svg'],
               "Відео": ['avi', 'mp4', 'mov', 'mkv'],
@@ -157,7 +158,7 @@ SORT_COMMANDS_WORDS = '|'.join(SORT_COMMANDS)
 
 
 def main():
-    print(start())
+    print(description)
     while True:
         user_input = input('Write your command: ')
         command, data = ab.parser(user_input, SORT_COMMANDS_WORDS)

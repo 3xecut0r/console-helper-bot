@@ -3,6 +3,8 @@ import re
 import console_bot.handlers as handlers
 
 
+descriprion = "\nFor saving - print 'save'\nFor help - print 'help'\nFor exit print -'return'\n"
+
 OPERATIONS = {
     'help': handlers.help,
     'add': handlers.adding,
@@ -36,7 +38,7 @@ def parser(message: str, commands: str) -> tuple[str|None, str|None, str|None]:
     return 'no command', ''
 
 def main():
-    print(handlers.help())
+    print(descriprion)
     while True:
         inp = input('Write your command: ')
         command, data  = parser(inp, COMMAND_WORDS)

@@ -5,7 +5,7 @@ import console_bot.sort as sort
 import abc
 
 MAIN_INSTRUCTION = 'instruction_for_menu.txt'
-
+description = "\nexit - to finish\nhelp - documentation\n"
 
 class UserInterface(abc.ABC):
 
@@ -56,7 +56,7 @@ MAIN_COMMANDS_WORDS = '|'.join(MAIN_COMMANDS)
 
 
 def main():
-    print(console_i.show_help())
+    print(description)
     while True:
         user_input = input('Choose points: address book, notes, show contacts, show notes, sort: ')
         command, _ = ab.parser(user_input, MAIN_COMMANDS_WORDS)

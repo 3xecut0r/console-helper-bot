@@ -6,6 +6,7 @@ import os
 from console_bot.handlers import instruction
 
 NOTES_INSTRUCTION = 'instruction_for_notes.txt'
+description = "\nFor help - print 'help'\nFor exit print - 'return'\n"
 
 
 class HashTags:
@@ -200,7 +201,8 @@ def message_parser(text):
 
 
 def main():
-    print(help())
+    # print(help())
+    print(description)
     while True:
         text = input('Write your command: ')
         if text == 'return':
